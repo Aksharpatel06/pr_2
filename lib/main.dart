@@ -25,15 +25,60 @@ class MyApp extends StatelessWidget {
   //           child: Text.rich(
   //              TextSpan(
   //                 children: [
-  //                   TextSpan(text: '🍎 Apple\n',style: TextStyle(color: Colors.red,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍇 Greps\n',style: TextStyle(color: Colors.purpleAccent,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍒 Cherry\n',style: TextStyle(color: Colors.purple,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍓 Strawberry\n',style: TextStyle(color: Colors.pinkAccent,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🥭 Mango\n',style: TextStyle(color: Colors.yellow,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍍 Pineapple\n',style: TextStyle(color: Colors.green,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍋 Lemon\n',style: TextStyle(color: Colors.yellowAccent,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🍉 Watermelon\n',style: TextStyle(color: Colors.lightGreen,fontSize: 30,fontWeight: FontWeight.w700)),
-  //                   TextSpan(text: '🥥 Coconut\n',style: TextStyle(color: Colors.brown,fontSize: 30,fontWeight: FontWeight.w700)),
+  //                    //1
+  //                   TextSpan(text: '🍎 Apple\n',
+  //                   style: TextStyle(
+  //                      color: Colors.red,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                   //2
+  //                   TextSpan(text: '🍇 Greps\n',
+  //                   style: TextStyle(
+  //                      color: Colors.purpleAccent,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                   //3
+  //                   TextSpan(text: '🍒 Cherry\n',
+  //                   style: TextStyle(
+  //                    color: Colors.purple,
+  //                    fontSize: 30,
+  //                    fontWeight: FontWeight.w700)),
+  //                   //4
+  //                   TextSpan(text: '🍓 Strawberry\n',
+  //                   style: TextStyle(
+  //                     color: Colors.pinkAccent,
+  //                     fontSize: 30,
+  //                     fontWeight: FontWeight.w700)),
+  //                   //5
+  //                   TextSpan(text: '🥭 Mango\n',
+  //                   style: TextStyle(
+  //                      color: Colors.yellow,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                   //6
+  //                   TextSpan(text: '🍍 Pineapple\n',
+  //                   style: TextStyle(
+  //                      color: Colors.green,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                    //7
+  //                   TextSpan(text: '🍋 Lemon\n',
+  //                   style: TextStyle(
+  //                      color: Colors.yellowAccent,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                   //8
+  //                   TextSpan(text: '🍉 Watermelon\n',
+  //                   style: TextStyle(
+  //                      color: Colors.lightGreen,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
+  //                   //9
+  //                   TextSpan(text: '🥥 Coconut\n',
+  //                   style: TextStyle(
+  //                      color: Colors.brown,
+  //                      fontSize: 30,
+  //                      fontWeight: FontWeight.w700)),
   //              ]
   //            )
   //         ),
