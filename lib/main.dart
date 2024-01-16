@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -307,6 +309,58 @@ class MyApp extends StatelessWidget {
   //   );
   // }
 
+  // @override
+  // Widget build(BuildContext context) {
+  //   return MaterialApp(
+  //     debugShowCheckedModeBanner: false,
+  //     home: SafeArea(
+  //       child: Scaffold(
+  //         appBar: AppBar(
+  //           backgroundColor: Color(0xff2196F3),
+  //           centerTitle: true,
+  //           title: Text(
+  //             'RichText Example',
+  //             style: TextStyle(
+  //               color: Color(0xffFFFFFF),
+  //             ),
+  //           ),
+  //         ),
+  //         body: const Center(
+  //           child: Text.rich(
+  //             TextSpan(
+  //                 children: [TextSpan(text: 'Single  ', style: TextStyle(
+  //                   color: Color(0xff2196F3),
+  //                   fontWeight: FontWeight.w900,
+  //                   fontSize: 35,
+  //                   fontFamily: "Google Sans",
+  //                 ),),
+  //                   TextSpan(text: 'Line',style: TextStyle(
+  //                     color: Color(0xffFFFFFF),
+  //                     backgroundColor: Color(0xff009688),
+  //                     fontSize: 35,
+  //                     fontFamily: "Google Sans",
+  //                     fontWeight: FontWeight.w900,
+  //                   )),
+  //                   TextSpan(text: '  Multiple',style: TextStyle(
+  //                     color: Color(0xffFF9800),
+  //                     fontSize: 35,
+  //                     fontFamily: 'RobotoMono',
+  //                     fontWeight: FontWeight.w900,
+  //                   )),
+  //                   TextSpan(text: '  Style',style: TextStyle(
+  //                     color: Color(0xffE91D63),
+  //                     fontSize: 35,
+  //                     fontWeight: FontWeight.w900,
+  //                   )),
+  //                 ],
+  //             ),
+  //           ),
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -314,43 +368,33 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
+            title: const Text('Flutter RichText',style: TextStyle(
+              color: Color(0xffffffff),
+            ),),
             backgroundColor: Color(0xff2196F3),
-            centerTitle: true,
-            title: Text(
-              'RichText Example',
-              style: TextStyle(
-                color: Color(0xffFFFFFF),
-              ),
-            ),
           ),
           body: const Center(
             child: Text.rich(
               TextSpan(
-                  children: [TextSpan(text: 'Single  ', style: TextStyle(
-                    color: Color(0xff2196F3),
-                    fontWeight: FontWeight.w900,
-                    fontSize: 35,
-                    fontFamily: "Google Sans",
-                  ),),
-                    TextSpan(text: 'Line',style: TextStyle(
-                      color: Color(0xffFFFFFF),
-                      backgroundColor: Color(0xff009688),
-                      fontSize: 35,
-                      fontFamily: "Google Sans",
-                      fontWeight: FontWeight.w900,
-                    )),
-                    TextSpan(text: '  Multiple',style: TextStyle(
-                      color: Color(0xffFF9800),
-                      fontSize: 35,
-                      fontFamily: 'RobotoMono',
-                      fontWeight: FontWeight.w900,
-                    )),
-                    TextSpan(text: '  Style',style: TextStyle(
-                      color: Color(0xffE91D63),
-                      fontSize: 35,
-                      fontWeight: FontWeight.w900,
-                    )),
-                  ],
+                children: [
+                  TextSpan(text: 'RichText helps to create\n',style: TextStyle(
+                    color: Color(0xff888888),
+                    fontSize: 25,
+                  )),
+                  TextSpan(text: 'Highlighted\n',style: TextStyle(
+                    color: Color(0xffF44336),
+                    fontSize: 50,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold,
+                    height: 0.9,
+                  )),
+                  TextSpan(
+                    text: 'Clickable',style: TextStyle(
+                    color: Color(0xff108DF1),
+                    fontSize: 25,
+                  ),
+                  ),
+                ],
               ),
             ),
           ),
