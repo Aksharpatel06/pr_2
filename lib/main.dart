@@ -90,217 +90,269 @@ class MyApp extends StatelessWidget {
   //   );
   // }
 
+  // @override
+  // Widget build(BuildContext context) {
+  //   return MaterialApp(
+  //     debugShowCheckedModeBanner: false,
+  //     home: SafeArea(
+  //       child: Scaffold(
+  //         backgroundColor: Colors.black,
+  //         appBar: AppBar(
+  //           centerTitle: true,
+  //           backgroundColor: Colors.redAccent,
+  //           title: const Text(
+  //             'Red & White',
+  //             style: TextStyle(
+  //               color: Colors.white,
+  //             ),
+  //           ),
+  //         ),
+  //         body: const Center(
+  //           child: Text.rich(TextSpan(children: [
+  //             //1
+  //             TextSpan(
+  //                 text: '          G',
+  //                 style: TextStyle(
+  //                     color: Colors.green,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'R',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'APHICS\n',
+  //                 style: TextStyle(
+  //                     color: Colors.green,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //2
+  //             TextSpan(
+  //                 text: '   FLUTT',
+  //                 style: TextStyle(
+  //                     color: Colors.blue,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'E',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'R\n',
+  //                 style: TextStyle(
+  //                     color: Colors.blue,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //3
+  //             TextSpan(
+  //                 text: '       AN',
+  //                 style: TextStyle(
+  //                     color: Colors.lightGreen,
+  //                     fontSize: 30,
+  //                     letterSpacing: 6,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'D',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'ROID\n',
+  //                 style: TextStyle(
+  //                     color: Colors.lightGreen,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //4
+  //             TextSpan(
+  //                 text: 'DESIGN ',
+  //                 style: TextStyle(
+  //                     color: Colors.yellowAccent,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: '&',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 1,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: ' DEVELOP\n',
+  //                 style: TextStyle(
+  //                     color: Colors.yellowAccent,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //5
+  //             TextSpan(
+  //                 text: '            ',
+  //                 style: TextStyle(
+  //                     color: Colors.yellowAccent,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'W',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'EB\n',
+  //                 style: TextStyle(
+  //                     color: Colors.lightBlue,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //6
+  //             TextSpan(
+  //                 text: '       FAS',
+  //                 style: TextStyle(
+  //                     color: Colors.yellow,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'H',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'ION\n',
+  //                 style: TextStyle(
+  //                     color: Colors.yellow,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //7
+  //             TextSpan(
+  //                 text: ' ANIMAT',
+  //                 style: TextStyle(
+  //                     color: Colors.blueGrey,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'I',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'ON\n',
+  //                 style: TextStyle(
+  //                     color: Colors.blueGrey,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //8
+  //             TextSpan(
+  //                 text: '           I',
+  //                 style: TextStyle(
+  //                     color: Colors.blueAccent,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'T',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'A-CS+\n',
+  //                 style: TextStyle(
+  //                     color: Colors.blueAccent,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             //9
+  //             TextSpan(
+  //                 text: '      GAM',
+  //                 style: TextStyle(
+  //                     color: Colors.orange,
+  //                     fontSize: 30,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //             TextSpan(
+  //                 text: 'E',
+  //                 style: TextStyle(
+  //                     color: Colors.red,
+  //                     fontSize: 33,
+  //                     letterSpacing: 5,
+  //                     fontWeight: FontWeight.w600)),
+  //           ])),
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.black,
           appBar: AppBar(
+            backgroundColor: Color(0xff2196F3),
             centerTitle: true,
-            backgroundColor: Colors.redAccent,
-            title: const Text(
-              'Red & White',
+            title: Text(
+              'RichText Example',
               style: TextStyle(
-                color: Colors.white,
+                color: Color(0xffFFFFFF),
               ),
             ),
           ),
           body: const Center(
-            child: Text.rich(TextSpan(children: [
-              //1
+            child: Text.rich(
               TextSpan(
-                  text: '          G',
-                  style: TextStyle(
-                      color: Colors.green,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'R',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'APHICS\n',
-                  style: TextStyle(
-                      color: Colors.green,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //2
-              TextSpan(
-                  text: '   FLUTT',
-                  style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'E',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'R\n',
-                  style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //3
-              TextSpan(
-                  text: '       AN',
-                  style: TextStyle(
-                      color: Colors.lightGreen,
-                      fontSize: 30,
-                      letterSpacing: 6,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'D',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'ROID\n',
-                  style: TextStyle(
-                      color: Colors.lightGreen,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //4
-              TextSpan(
-                  text: 'DESIGN ',
-                  style: TextStyle(
-                      color: Colors.yellowAccent,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: '&',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 1,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: ' DEVELOP\n',
-                  style: TextStyle(
-                      color: Colors.yellowAccent,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //5
-              TextSpan(
-                  text: '            ',
-                  style: TextStyle(
-                      color: Colors.yellowAccent,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'W',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'EB\n',
-                  style: TextStyle(
-                      color: Colors.lightBlue,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //6
-              TextSpan(
-                  text: '       FAS',
-                  style: TextStyle(
-                      color: Colors.yellow,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'H',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'ION\n',
-                  style: TextStyle(
-                      color: Colors.yellow,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //7
-              TextSpan(
-                  text: ' ANIMAT',
-                  style: TextStyle(
-                      color: Colors.blueGrey,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'I',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'ON\n',
-                  style: TextStyle(
-                      color: Colors.blueGrey,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //8
-              TextSpan(
-                  text: '           I',
-                  style: TextStyle(
-                      color: Colors.blueAccent,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'T',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'A-CS+\n',
-                  style: TextStyle(
-                      color: Colors.blueAccent,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              //9
-              TextSpan(
-                  text: '      GAM',
-                  style: TextStyle(
-                      color: Colors.orange,
-                      fontSize: 30,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-              TextSpan(
-                  text: 'E',
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      letterSpacing: 5,
-                      fontWeight: FontWeight.w600)),
-            ])),
+                  children: [TextSpan(text: 'Single  ', style: TextStyle(
+                    color: Color(0xff2196F3),
+                    fontWeight: FontWeight.w900,
+                    fontSize: 35,
+                    fontFamily: "Google Sans",
+                  ),),
+                    TextSpan(text: 'Line',style: TextStyle(
+                      color: Color(0xffFFFFFF),
+                      backgroundColor: Color(0xff009688),
+                      fontSize: 35,
+                      fontFamily: "Google Sans",
+                      fontWeight: FontWeight.w900,
+                    )),
+                    TextSpan(text: '  Multiple',style: TextStyle(
+                      color: Color(0xffFF9800),
+                      fontSize: 35,
+                      fontFamily: 'RobotoMono',
+                      fontWeight: FontWeight.w900,
+                    )),
+                    TextSpan(text: '  Style',style: TextStyle(
+                      color: Color(0xffE91D63),
+                      fontSize: 35,
+                      fontWeight: FontWeight.w900,
+                    )),
+                  ],
+              ),
+            ),
           ),
         ),
       ),
