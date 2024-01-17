@@ -408,7 +408,7 @@ class MyApp extends StatelessWidget {
                     wordSpacing: 2,
                     fontSize: 22,
                     letterSpacing: 1.5,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w800,
                   ),
                   ),
                 ],
