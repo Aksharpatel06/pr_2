@@ -392,6 +392,23 @@ class MyApp extends StatelessWidget {
                     text: 'Clickable',style: TextStyle(
                     color: Color(0xff108DF1),
                     fontSize: 25,
+                    decoration: TextDecoration.underline,
+                    decorationColor: Color(0xff108DF1),
+                  ),
+                  ),
+                  TextSpan(
+                    text: '  OutlinedText\n',style: TextStyle(
+                    color: Color(0xff269D2A),
+                    fontSize: 25,
+                  ),
+                  ),
+                  TextSpan(
+                    text: '  Say Hi to RichText \n',style: TextStyle(
+                    color: Color(0xff888888),
+                    wordSpacing: 2,
+                    fontSize: 22,
+                    letterSpacing: 1.5,
+                    fontWeight: FontWeight.w700,
                   ),
                   ),
                 ],
